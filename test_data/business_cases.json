@@ -1,0 +1,13 @@
+{
+  "member_id": "member_001",
+  "bread_order": {
+    "sku": "bread_001",
+    "quantity": 2,
+    "coupon_amount": "5.00"
+  },
+  "clients": ["zhanggui_app", "cashier_app", "mini_program"],
+  "search_questions": {
+    "sales_report": "帮我看一下今天门店经营和销售情况",
+    "unclear": "这个活动怎么样"
+  }
+}

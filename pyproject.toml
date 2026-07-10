@@ -1,0 +1,16 @@
+[project]
+name = "huamengyun-qa-automation-demo"
+version = "0.1.0"
+description = "A pytest automation demo inspired by Huamengyun retail SaaS business flows."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers --tb=short"
+testpaths = ["tests"]
+markers = [
+  "smoke: core smoke cases for fast regression",
+  "regression: end-to-end business regression cases",
+  "permission: role and data permission cases",
+  "ai: AI assistant behavior cases"
+]
